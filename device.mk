@@ -99,8 +99,8 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     libantradio
 
- # Camera
- PRODUCT_PACKAGES += \
+# Camera
+PRODUCT_PACKAGES += \
     camera.msm8994 \
     libshim_camera \
     libshim_ims-camera \
@@ -122,6 +122,10 @@ PRODUCT_PACKAGES += \
     memtrack.msm8994 \
     liboverlay \
     libtinyxml
+
+# Doze mode
+PRODUCT_PACKAGES += \
+    OneplusDoze
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \
